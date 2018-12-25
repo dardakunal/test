@@ -1,0 +1,11 @@
+Script started on 2018-11-29 18:32:32+0530
+]0;root@kunal-HP-ProBook-430-G5: /home/kunal/exceptscriptroot@kunal-HP-ProBook-430-G5:/home/kunal/exceptscript# ssh kunald@monitor2.blueapple.mobi
+kunald@monitor2.blueapple.mobi's password: 
+Last login: Thu Nov 29 13:00:50 2018 from 192.168.252.176
+]0;kunald@monitor2:~[?1034h[kunald@monitor2 ~]$ pwd
+/home/kunald
+]0;kunald@monitor2:~[kunald@monitor2 ~]$ logout
+Connection to monitor2.blueapple.mobi closed.
+]0;root@kunal-HP-ProBook-430-G5: /home/kunal/exceptscriptroot@kunal-HP-ProBook-430-G5:/home/kunal/exceptscript# exit
+
+Script done on 2018-11-29 18:33:12+0530

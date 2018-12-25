@@ -1,0 +1,9 @@
+#!/usr/bin/expect -f
+set timeout -1
+spawn ssh kunald@monitor2.blueapple.mobi
+match_max 100000
+expect -exact "kunald@monitor2.blueapple.mobi's password: "
+send -- "Vuclip@2018\r"
+expect -exact "\r
+Last login: Thu Nov 29 13:10:30 2018 from 192.168.252.176\r\r"
+expect eof

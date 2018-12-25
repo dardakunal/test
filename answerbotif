@@ -1,0 +1,12 @@
+#!/usr/bin/expect -f
+
+set timeout -1
+set myvar [lindex $argv 0] 
+spawn ./questionsif.sh
+expect " \r"
+send -- "$myvar"
+expect {
+	"*topic?" { send -- "love" }
+	"*movie?" { send -- "LSD" }
+}
+expect eof

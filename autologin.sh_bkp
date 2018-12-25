@@ -1,0 +1,10 @@
+#!/usr/bin/expect
+set user "kunald"
+set pass "Vuclip@2018"
+spawn ssh $user@monitor2.blueapple.mobi
+expect "kunald@monitor2.blueapple.mobi's password: \r"
+send -- "$pass"
+send -- "\r"
+#expect "[kunald@monitor2 ~]$ \r"
+#send -- "pwd \r"
+expect eof
